@@ -1,0 +1,16 @@
+:root {
+  box-sizing: border-box;
+  --purple-02: #381F73;
+  --black-02: #353535;
+  --purple-03: #5A32A8;
+  --black-03: #878787;
+  --purple-01: #20044F;
+  --black-01: #1F1F1F;
+  --purple-04: #EAE6F5;
+  --black-04: #E4E4E4;
+
+}
+
+* {
+  margin: 0px;
+}
