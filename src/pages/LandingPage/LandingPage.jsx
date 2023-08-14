@@ -7,6 +7,7 @@ const LandingPage = () => {
     <>
       <LPSection1 />
       <Section2 />
+      {/* */}
     </>
 
   )
