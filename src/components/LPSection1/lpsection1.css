@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     overflow: auto;
+    overflow-x: hidden;
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
@@ -17,16 +18,14 @@
     background-image: linear-gradient(154deg, rgba(70, 36, 136, 1) 0%, rgba(115, 68, 209, 1) 100%);
   }
   .frame314-frame136 {
-    gap: 24px;
-    top: 0px;
-    left: 0px;
-    width: 1440px;
+    width: 100%;
     display: flex;
-    padding: 32px 100px 24px;
-    position: absolute;
-    align-items: center;
-    flex-shrink: 0;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .frame314-frame136 img{
+    margin-right: 100px;
+    margin-top: 32px;
   }
   .frame314-frame76 {
     gap: 291px;
@@ -2133,9 +2132,11 @@
   .frame314-image14 {
     top: -81.08349609375px;
     left: 720.416015625px;
-    width: 721px;
-    height: 541px;
-    position: absolute;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    /* position: absolute; */
+    
   }
   .frame314-frame79 {
     gap: 270.6666564941406px;
@@ -3051,7 +3052,17 @@
     border-radius: 999px;
     justify-content: center;
     background-color: rgba(255, 255, 255, 1);
+    user-select: none;
   }
+  .frame314-frame283:hover{
+    background-color: var(--purple-04);
+    cursor: pointer;
+  }
+  .frame314-frame283:active{
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+
   .frame314-text149 {
     color: var(--dl-color-default-black02);
     height: auto;
@@ -3073,7 +3084,17 @@
     justify-content: center;
     background-color: var(--dl-color-default-g1);
     background-image: linear-gradient(-56deg, rgba(130, 91, 193, 1) 0%, rgba(77, 163, 248, 1) 100%);
+    user-select: none;
+}
+  .frame314-frame282:hover{
+    cursor: pointer;
+    background-image: linear-gradient(-28deg, rgba(130, 91, 193, 1) 0%, rgba(77, 163, 248, 1) 100%);
+}
+  .frame314-frame282:active{
+    background-image: linear-gradient(-56deg, rgba(130, 91, 193, 1) 0%, rgba(77, 163, 248, 1) 100%);
   }
+
+
   .frame314-text151 {
     color: rgba(255, 255, 255, 1);
     height: auto;

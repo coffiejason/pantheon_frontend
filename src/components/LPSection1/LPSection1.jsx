@@ -2,60 +2,26 @@ import './lpsection1.css';
 import polygon1 from '../../assets/polygon1.svg'
 import ellipe6 from '../../assets/ellipse6.svg'
 import vector1 from '../../assets/vector1.svg'
-import image14 from '../../assets/image14.png'
+import image14 from '../../assets/sourcefile.png'
 import vectorplus from '../../assets/vector_plus.svg'
+import logo from '../../assets/logo.png'
 
 const LPSection1 = () => {
     return (
         <div className="frame314-container">
         <div className="frame314-frame314">
             {/*logo*/}
-          {/* <div className="frame314-frame136">
-            <div className="frame314-frame76">
-              <div className="frame314-frame2">
-                <div className="frame314-frame281">
-                  <div className="frame314-frame275">
-                    <img
-                      src="/subtract1343-q74.svg"
-                      alt="Subtract1343"
-                      className="frame314-subtract"
-                    />
-                  </div>
-                  <div className="frame314-frame276">
-                    <img
-                      src="/subtract1343-lb9f.svg"
-                      alt="Subtract1343"
-                      className="frame314-subtract1"
-                    />
-                  </div>
-                  <div className="frame314-frame277">
-                    <img
-                      src="/subtract1343-2s5p.svg"
-                      alt="Subtract1343"
-                      className="frame314-subtract2"
-                    />
-                  </div>
-                  <div className="frame314-frame278">
-                    <img
-                      src="/subtract1343-ysm.svg"
-                      alt="Subtract1343"
-                      className="frame314-subtract3"
-                    />
-                    <img src alt="Ellipse151343" className="frame314-ellipse15" />
-                    <div className="frame314-frame279"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+          <div className="frame314-frame136">
+            <img src={logo} alt='logo' />
+          </div>
           <div className="frame314-frame18">
             <div className="frame314-section1">
               <div className="frame314-frame86">
                 <div className="frame314-frame85">
                   <div className="frame314-frame84">
                     <div className="frame314-frame841">
-                      <img src alt="Frame821343" className="frame314-frame82" />
-                      <img src alt="Frame811343" className="frame314-frame81" />
+                      {/* <img src alt="Frame821343" className="frame314-frame82" />
+                      <img src alt="Frame811343" className="frame314-frame81" /> */}
                     </div>
                     <span className="frame314-text">
                       <span>הופעות מוסיקה ובידור</span>
@@ -72,7 +38,7 @@ const LPSection1 = () => {
                       </span>
                       <div className="frame314-frame29">
                         <div className="frame314-frame28">
-                          <img src alt="Vector1343" className="frame314-vector" />
+                          {/* <img src alt="Vector1343" className="frame314-vector" /> */}
                           <span className="frame314-text004">
                             <span>שעה וחצי</span>
                           </span>
@@ -195,8 +161,8 @@ const LPSection1 = () => {
                 <div className="frame314-frame32">
                   <div className="frame314-frame842">
                     <div className="frame314-frame83">
-                      <img src alt="Frame821343" className="frame314-frame821" />
-                      <img src alt="Frame811343" className="frame314-frame811" />
+                      {/* <img src alt="Frame821343" className="frame314-frame821" />
+                      <img src alt="Frame811343" className="frame314-frame811" /> */}
                     </div>
                     <span className="frame314-text026">
                       <span>כוכבי רשת</span>
@@ -340,8 +306,8 @@ const LPSection1 = () => {
                 <div className="frame314-frame861">
                   <div className="frame314-frame843">
                     <div className="frame314-frame831">
-                      <img src alt="Frame821343" className="frame314-frame822" />
-                      <img src alt="Frame811343" className="frame314-frame812" />
+                      {/* <img src alt="Frame821343" className="frame314-frame822" />
+                      <img src alt="Frame811343" className="frame314-frame812" /> */}
                     </div>
                     <span className="frame314-text052">
                       <span>הרצאות</span>
@@ -628,9 +594,9 @@ const LPSection1 = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="frame314-frame34">
-                <img src alt="image141343" className="frame314-image14" />
-                <div className="frame314-frame79">
+              <div className="frame314-frame34">
+                <img src={image14} alt="image141343" className="frame314-image14" />
+                {/* <div className="frame314-frame79">
                   <div className="frame314-frame15">
                     <div className="frame314-frame14"></div>
                     <div className="frame314-frame13"></div>
@@ -647,15 +613,15 @@ const LPSection1 = () => {
                       <span>שרית חדד במופע לרגל השקת האלבום החדש</span>
                     </span>
                   </div>
-                </div>
-              </div> */}
-              <img src alt="Ellipse71343" className="frame314-ellipse7" />
+                </div> */}
+              </div>
+              <img src={ellipe6} alt="Ellipse71343" className="frame314-ellipse7" />
               <div className="frame314-frame110">
                 <div className="frame314-frame1101">
                   <div className="frame314-frame107"></div>
-                  <img src alt="Frame1081343" className="frame314-frame108" />
+                  {/* <img src alt="Frame1081343" className="frame314-frame108" /> */}
                   <div className="frame314-frame109">
-                    <img src alt="Union1343" className="frame314-union" />
+                    {/* <img src alt="Union1343" className="frame314-union" /> */}
                     <span className="frame314-text108">
                       <span>האירוע שלי</span>
                     </span>
@@ -849,7 +815,7 @@ const LPSection1 = () => {
                   <img src={ellipe6} alt="Ellipse61343" className="frame314-ellipse61" />
                 </div>
               </div>
-              <div className="frame314-frame61 frame314-frame61"></div>
+              {/* <div className="frame314-frame61 frame314-frame61"></div> */}
               <div className="frame314-frame60">
                 <div className="frame314-frame594">
                   <img
